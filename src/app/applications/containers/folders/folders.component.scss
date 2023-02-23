@@ -1,0 +1,12 @@
+@import "helpers";
+
+.folders {
+  @include flex($ai: center, $wrap: wrap);
+  gap: 1rem;
+  padding-inline: 0.5rem;
+
+  &__icon {
+    margin-top: 10px;
+    text-align: center;
+  }
+}

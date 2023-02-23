@@ -1,0 +1,10 @@
+export const DESKTOP = 'desktop';
+export const TERMINAL = 'terminal';
+export const TEXT_EDIT = 'text-edit';
+export const FINDER = 'finder';
+export const SAFARI = 'safari';
+export const SYSTEM_PREFERENCES = 'system-preferences';
+export const TRASH = 'trash';
+export const MUSIC = 'music';
+export const LAUNCHPAD = 'launchpad';
+export const SPOTLIGHT = 'spotlight';

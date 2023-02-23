@@ -1,0 +1,8 @@
+<div class="finder">
+  <div class="finder__sidebar">
+    <app-finder-sidebar></app-finder-sidebar>
+  </div>
+  <div class="finder__content">
+    <app-folders [folders]="(folders$ | async) || []" [isFinderOpened]="true"></app-folders>
+  </div>
+</div>

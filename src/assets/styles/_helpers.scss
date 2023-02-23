@@ -1,0 +1,21 @@
+@mixin flex($dir: row, $ai: stretch, $jc: stretch, $wrap: nowrap) {
+  display: flex;
+  flex-direction: $dir;
+  align-items: $ai;
+  justify-content: $jc;
+  flex-wrap: $wrap;
+}
+
+@mixin font($size: inherit, $weight: inherit, $color: inherit) {
+  font-family: "Yantramanav", sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+}
+
+@mixin bg-image($url, $size, $position) {
+  background-image: url($url);
+  background-size: $size;
+  background-position: $position;
+  background-repeat: no-repeat;
+}

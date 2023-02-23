@@ -1,0 +1,6 @@
+<div class="folder-icon" (click)="onToggleSelection($event)">
+  <div class="folder-icon__image" [class.selected]="folder.selected" [class.finder]="isFinderOpened"></div>
+  <div class="folder-icon__title" [class.selected]="folder.selected" [class.finder]="isFinderOpened">
+    {{folder.title}}
+  </div>
+</div>

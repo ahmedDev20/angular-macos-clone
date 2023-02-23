@@ -1,0 +1,10 @@
+.dialog-controls {
+  i {
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+
+    &:hover {
+      filter: brightness(80%);
+    }
+  }
+}
